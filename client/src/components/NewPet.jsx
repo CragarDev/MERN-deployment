@@ -33,7 +33,7 @@ const NewPet = props => {
 
     // use axios to post the pet object
     axios
-      .post('http://Localhost:8000/api/pets/new', pet)
+      .post('http://localhost:8000/api/pets/new', pet)
       .then(res => {
         console.log('New Pet Form: Response after posting the form', res.data)
 
